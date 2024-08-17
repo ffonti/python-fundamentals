@@ -6,7 +6,7 @@ class Persona:
         self.eta = eta
 
     def saluta(self):
-        print("Ciao, mi chiamo {self.nome} {self.cognome} e ho {self.eta} anni")
+        print(f"Ciao, mi chiamo {self.nome} {self.cognome} e ho {self.eta} anni")
 
 persona1 = Persona("Mario", "Rossi", 30)
 persona2 = Persona("Luca", "Bianchi", 25)
